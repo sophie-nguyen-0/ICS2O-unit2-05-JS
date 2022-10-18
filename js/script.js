@@ -26,9 +26,4 @@ function myButtonClicked() {
     "tax"
   ).innerHTML = `The government will take: $ ${taxes.toFixed(2)}`
 
-  if (cats < 5) {
-    document.getElementById("cat").innerHTML = "you should get one more cat"
-  } else {
-    document.getElementById("cat").innerHTML = "thats enough cats..."
-  }
 }
