@@ -32,5 +32,4 @@ function myButtonClicked() {
   else{
     document.getElementById("cat").innerHTML = "thats enough cats..."
   }
-  }
 }
