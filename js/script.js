@@ -28,8 +28,7 @@ function myButtonClicked() {
 
   if (cats < 5) {
     document.getElementById("cat").innerHTML = "you should get one more cat"
-  } 
-  else {
+  } else {
     document.getElementById("cat").innerHTML = "thats enough cats..."
   }
 }
