@@ -15,14 +15,17 @@ function myButtonClicked() {
 
   //process
   const TAX_RATE = 0.18
-  const payment = (hours * rate) * (1.00 - TAX_RATE)
-  const taxes = (hours * rate) * TAX_RATE
+  const payment = hours * rate * (1.0 - TAX_RATE)
+  const taxes = hours * rate * TAX_RATE
 
   //output
-  document.getElementById("pay").innerHTML = `Your pay will be: $ ${payment.toFixed(2)}`
-  document.getElementById("tax").innerHTML = `The government will take: $ ${taxes.toFixed(2)}`
+  document.getElementById(
+    "pay"
+  ).innerHTML = `Your pay will be: $ ${payment.toFixed(2)}`
+  document.getElementById(
+    "tax"
+  ).innerHTML = `The government will take: $ ${taxes.toFixed(2)}`
 
-  if (cats < 5){
-    
+  if (cats < 5) {
   }
 }
