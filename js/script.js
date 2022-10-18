@@ -25,5 +25,4 @@ function myButtonClicked() {
   document.getElementById(
     "tax"
   ).innerHTML = `The government will take: $ ${taxes.toFixed(2)}`
-
 }
